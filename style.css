@@ -1,0 +1,111 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    /*  минимальная высота body не может быть меньше высоты страницы */
+    min-height: 100vh;
+    /* убрать вертикальную прокрутку */
+    margin: 0;
+    padding: 0;
+    /* прижимаем футер к низу */
+    display: flex;
+    flex-direction: column;
+    /* все элементы размещаются на максимальном расстоянии друг от друга, крайние прижаты к границам родителя. */
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px solid black;
+    background-color: #ececec;
+}
+
+.main {
+    background-color: #ececec;
+}
+
+.footer {
+    border: 1px solid black;
+    background-color: #ececec;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    /* растянуть по ширине */
+    justify-content: space-between;
+    /* по центру по вертикали */
+
+    padding: 0 10px 0 10px;
+    flex-wrap: wrap;
+}
+
+.footer-container {
+    display: flex;
+    /* растянуть по ширине */
+    justify-content: space-between;
+    /* по центру по вертикали */
+    align-items: center;
+    padding: 0 10px 0 5px;
+}
+
+.nav {
+    font-size: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* убрать точки с пунктов */
+    list-style: none;
+    padding: 0 10px 0 0;
+}
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    transition: .5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section {
+    width: 50%;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 2px solid #5c5c5c;
+}
+
+.section-profile-photo {
+    width: 180px;
+    height: 220px;
+    border: 1px solid black;
+}
+
+.section-title-profile {
+    font-size: 30px;
+}
+
+.section-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
