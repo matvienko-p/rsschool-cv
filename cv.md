@@ -1,10 +1,12 @@
 # **Petr Matvienko**
-### **E-mail:** matvienko.ets@gmail.com
 ## **Contact Information:**
+
 ### **Phone:** +7-906-848-67-34
 
 ### **GitHub:** [matvienko-p](https://github.com/matvienko-p)
 ### **Telegram:** @matvienko_p
+
+### **E-mail:** matvienko.ets@gmail.com
 ***
 ## **About Me:**
 *I work as a software engineer for automation of control systems in production.
